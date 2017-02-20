@@ -49,3 +49,9 @@ D = (D_n).^n;
 plot(HR,D);
 svar = menu('Vil du kjøre funksjonen på ny? ', 'Ja', 'Nei');
 end
+
+% Har gjort endringer nå
+for i = 1:300
+    fprintf('i')
+end
+fprintf('\n')
